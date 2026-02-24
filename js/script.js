@@ -17,7 +17,7 @@ let fetchCities = async (city) => {
         geoData.results.forEach((cityObj, index) => {
             let option = document.createElement("option");
             option.value = index;
-            option.textContent = `${cityObj.name}, ${cityObj.country}, `;
+            option.textContent = `${cityObj.name}, ${cityObj.country}`;
             citySelect.appendChild(option);
         });
         selectedCity = geoData.results[0];

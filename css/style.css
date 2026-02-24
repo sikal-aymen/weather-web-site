@@ -61,3 +61,15 @@ background: linear-gradient(to right, #0D47A1, #1976D2, #42A5F5);    position: r
 #resultDiv{
     color: red;
 }
+#citySelect{
+            width: 12%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ececec;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+background: linear-gradient(to right, #0D47A1, #1976D2, #42A5F5);    position: relative;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
