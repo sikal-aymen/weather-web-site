@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Week 19 — Small Full App Project (Assignments)</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <div class="video-background">
+    <video autoplay muted loop playsinline poster="poster-image.jpg">
+      <source src="/Sky, Clouds, Blue. Free Stock Video.mp4" type="video/mp4">
+    </video>
+  </div>
+<div id="resultDiv"></div>
+  <div class="content">
+    <h1>Welcome to Our Site</h1>
+    <p>Content goes here.</p>
+  </div>
+  <h2>Check Temperature</h2>
+
+  <input type="text" id="cityInput" onchange="fetchCities(this.value)" placeholder="Enter city name">
+  <select id="citySelect"></select>
+  <button id="fetchBtn">wrk li brit drjet l7arara</button>
+  <div class="d"></div>
+  <div id="result"></div>
+  <script>
+  /*
+  =====================================
+  WEEK 19 GOAL
+  =====================================
+  Combine everything learned: async/await,
+  fetch, DOM, events, and ES6+ features
+  to build a real mini application.
+  */
+
+  // Day 1 — Weather App Basics
+
+  /*
+  🧩 Assignment 1: Fetch Weather
+
+  Use this API:
+  https://api.open-meteo.com/v1/forecast?latitude=35&longitude=-5&hourly=temperature_2m
+
+  Fetch temperature data
+  Log it to the console
+  */
+  /*
+  🧩 Assignment 2: Display Temperature
+
+  Create HTML elements:
+  - input for city
+  - button to fetch
+  - div to display temperature
+  Fetch and display temperature dynamically
+  */
+
+  // Day 2 — User Interaction
+
+  /*
+  🧩 Assignment 3: Change City
+
+  Make the input field accept any city coordinates
+  Fetch new temperature on button click
+  Update display
+  */
+
+  /*
+  🧩 Assignment 4: Loading Indicator
+
+  Show "Loading..." while fetching
+  Replace it with the temperature after data is received
+  */
+
+  // Day 3 — Error Handling
+
+  /*
+  🧩 Assignment 5: Handle Errors
+
+  If fetch fails:
+  - Display "Oops! Something went wrong."
+  - Log error in console
+  */
+
+  /*
+  🧩 Assignment 6: Retry Button
+
+  Add a button to retry fetching after an error
+  */
+
+  // Day 4 — Styling & Extra Features
+
+  /*
+  🧩 Assignment 7: Add Colors
+
+  Change background color based on temperature:
+  - Cold: blue
+  - Warm: orange
+  - Hot: red
+  */
+
+  /*
+  🧩 Assignment 8: Show Hourly Forecast
+
+  Display temperature for next 5 hours
+  Use a list or table
+  */
+
+  // Day 5 — Review & GitHub Push
+
+  /*
+  🧩 Assignment 9: Final Review
+
+  - Test all features
+  - Refactor code if needed
+  - Ensure async/await, fetch, DOM manipulation are used
+  */
+
+  /*
+  🧩 Assignment 10: GitHub Project
+
+  Push your app to GitHub
+  Include README:
+  - App description
+  - Features
+  - How to use
+  */
+</script>
+<script src="/js/script.js"></script>
+</body>
+</html>
